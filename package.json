@@ -1,0 +1,30 @@
+{
+  "name": "vsSolar",
+  "displayName" : "vsSolar Homebridge Plugin to show Solar Stats",
+  "version": "1.0.0",
+  "description": "Homebridge plugin for displaying Solar Stats as a battery, plus temperature and humidity",
+  "main": "index.js",
+  "dependencies": {
+    "request": ">=2.88.0"
+  },
+  "engines": {
+    "homebridge": ">=0.4.50",
+    "node": ">=12.13.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vainsoftgames/vsSolar-HomeBridge.git"
+  },
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "author": "VainSoft",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vainsoftgames/vsSolar-HomeBridge/issues"
+  },
+  "homepage": "https://github.com/vainsoftgames/vsSolar-HomeBridge#readme"
+}
